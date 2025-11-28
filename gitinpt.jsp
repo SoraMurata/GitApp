@@ -12,11 +12,12 @@
     </head>
 
     <body>
-        <form action="GitInputServlet" method = "POST">
+        <form action="GitInputServlet" method = "post">
                 <p>姓</p>
                 <input type="text" name="myoji"/>
                 <p>名</p>
                 <input type="text" name="namae" />
+                <input type="submit" value="送信"/>
         </form>
     </body>
 </html>

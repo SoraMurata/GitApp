@@ -2,7 +2,7 @@
 <web-app>
     <servlet>
         <servlet-name>git</servlet-name>
-        <servlet-class>GitInputServlet</servlet-class>
+        <jsp-file>/gitinpt.jsp</jsp-file>
     </servlet>
 
     <servlet-mapping>
