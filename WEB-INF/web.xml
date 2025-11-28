@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>git</servlet-name>
+        <servlet-class>GitInputServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>git</servlet-name>
+        <url-pattern>/GitInputServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
