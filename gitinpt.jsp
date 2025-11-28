@@ -12,7 +12,7 @@
     </head>
 
     <body>
-        <form action="GitInputServlet" method = "post">
+        <form action="showName" method="GET">
                 <p>姓</p>
                 <input type="text" name="myoji"/>
                 <p>名</p>

@@ -2,11 +2,11 @@
 <web-app>
     <servlet>
         <servlet-name>git</servlet-name>
-        <jsp-file>/gitinpt.jsp</jsp-file>
+        <servlet-class>GitInputServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
         <servlet-name>git</servlet-name>
-        <url-pattern>/GitInputServlet</url-pattern>
+        <url-pattern>/showName</url-pattern>
     </servlet-mapping>
 </web-app>
